@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libmtmd_shared.so -o ../../bin/libmtmd_shared.so CMakeFiles/mtmd.dir/mtmd.cpp.o CMakeFiles/mtmd.dir/clip.cpp.o  -Wl,-rpath,/home/warchu/PycharmProjects/llama/llama.cpp/build/bin: ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-cuda.so ../../bin/libggml-base.so 

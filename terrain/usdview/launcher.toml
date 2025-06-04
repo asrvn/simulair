@@ -1,0 +1,11 @@
+name = "USDView"
+slug = "usdview"
+productArea = "USD"
+
+[defaults.windows-x86_64]
+entrypoint = "${productRoot}/scripts/usdview_gui.bat"
+args = []
+
+[defaults.linux-x86_64]
+entrypoint = "${productRoot}/scripts/usdview_gui.sh"
+args = []

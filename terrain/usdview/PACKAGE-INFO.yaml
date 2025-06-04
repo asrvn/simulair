@@ -1,0 +1,18 @@
+Package: usd
+Version: 0.25.02-gl.10223+v25.02.ba8aaf1f
+Maintainers:
+- Paul Molodowitch
+- Aaron Luk
+Description: Universal Scene Description (USD) is an efficient, scalable system for
+  authoring, reading, and streaming time-sampled scene description for interchange
+  between graphics applications.
+SWIPAT NvBug: 
+Repository: 
+License Type: Modified Apache 2.0
+License Path: PACKAGE-LICENSES/usd-license.txt
+Branch: conan-sdd-versioning
+Commit: ec7218713b93e24a3a011aac61696d9408829fd0
+Time: Sat Jan 25 05:30:43 2025
+Builder Name: runner-qi5xwrzmz-project-54177-concurrent-0-vylq0rv0
+Packman Version: 7.24.3
+Packagemaker Version: 1.57.12

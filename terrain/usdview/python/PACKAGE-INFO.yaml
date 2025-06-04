@@ -1,0 +1,9 @@
+Package: python
+Version: 3.10.15+nv2-linux-x86_64
+Description: Python distribution
+Time: Tue Oct  1 15:28:41 2024
+Builder Name: runner-pxqnmakym-project-22288-concurrent-1-sok6huva
+Packman Version: 7.8.2
+Packagemaker Version: 1.15.0
+Platform: linux-x86_64
+CI Build Number: 3.10.15+nv2
