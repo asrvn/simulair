@@ -1,0 +1,10 @@
+{
+  ".+": {
+    "_comment": "`.+` > `.*` alphabetically so this config would overide the one below",
+    "bg-color": "1.0, 0.0, 0.0"
+  },
+  ".*": {
+    "_comment": "but we want this one matched last as per the declaration order",
+    "bg-color": "0.0, 0.0, 0.25"
+  }
+}

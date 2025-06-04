@@ -1,0 +1,49 @@
+python run.py demo_files/examples/chair1.png --output-dir output/
+
+needs mit license, best license right now
+
+dependencies
+verify with pip list
+
+stable-fast-3d
+https://github.com/Stability-AI/stable-fast-3d
+
+pyrender
+https://github.com/mmatl/pyrender/
+
+dearpygui
+https://github.com/hoffstadt/DearPyGui
+
+rembg
+https://github.com/danielgatis/rembg?tab=readme-ov-file
+pip install rembg[gpu] # for library
+
+check out pybind11, already installed
+
+tensorrt
+stable diff nvidia
+https://huggingface.co/stabilityai/stable-diffusion-3-medium-tensorrt
+https://github.com/NVIDIA/TensorRT/blob/release/sd3/demo/Diffusion/README.md
+
+open3d
+
+aruco cv2:
+Dictionary_get replacements:
+dictionary = cv.aruco.getPredefinedDictionary(cv.aruco.DICT_4X4_250)
+parameters =  cv.aruco.DetectorParameters()
+detector = cv.aruco.ArucoDetector(dictionary, parameters)
+marker_image = cv2.aruco.generateImageMarker(dictionary, marker_id, marker_size)
+
+https://github.com/mikedh/trimesh
+
+help
+python .\src\Stable-Fast-3D\run.py --help
+
+
+triton
+pip install https://huggingface.co/madbuda/triton-windows-builds/resolve/main/triton-2.1.0-cp311-cp311-win_amd64.whl
+
+pip install spacy[cuda]
+
+
+https://github.com/bulletphysics/bullet3
